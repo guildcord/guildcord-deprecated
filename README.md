@@ -33,7 +33,7 @@ yarn add guildcord
 
 ### Send Webhook
 ```js
-const { Webhook, Embed } = require("./lib");
+const { Webhook, Embed } = require("guildcord");
 const hook = new Webhook({
     url: "Guilded webhook url"
 });
