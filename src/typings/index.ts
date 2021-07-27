@@ -1,0 +1,1 @@
+export type EmbedColors = "Blue" | "Green" | "Grey" | "Red" | "Pain";
