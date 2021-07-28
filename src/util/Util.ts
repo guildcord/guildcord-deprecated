@@ -9,3 +9,13 @@ export function isURL(url: string) {
     return regex.test(url);
     
 };
+
+export function validateCookie(cookie: string) {
+
+    var string = cookie;
+    string = string.substring(20);
+    string = string.substring(0, 192);
+
+
+    return string;
+};
