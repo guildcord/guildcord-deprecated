@@ -31,7 +31,7 @@ yarn add guildcord
 
 ## Usage
 
-### Basic Login
+### Basic Login v1.2.0
 ```js
 const { Client } = require("guildcord");
 const client = new Client();
