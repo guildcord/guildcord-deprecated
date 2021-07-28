@@ -31,6 +31,18 @@ yarn add guildcord
 
 ## Usage
 
+### Basic Login
+```js
+const { Client } = require("guildcord");
+const client = new Client();
+
+client.login("email", "password"); // This connection won't stay long until next update.
+
+client.on("ready", () => {
+    console.log(client.user.id);
+});
+```
+
 ### Send Webhook
 ```js
 const { Webhook, Embed } = require("guildcord");
